@@ -8,9 +8,14 @@ namespace git_example
         {
             return ringing;
         }
+
+        private static void Call()
+        {
+            System.Console.WriteLine("MoshiMoshi!");
+        }
         static void Main(string[] args)
         {
-            var ring = "Iphone's ringtune";
+            Call();var ring = "Iphone's ringtune";
             IsCalling(ring != null);
             Console.WriteLine("Hello World!");
         }

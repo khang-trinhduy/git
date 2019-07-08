@@ -12,6 +12,10 @@ namespace git_example
         {
             System.Console.WriteLine("Anou, Kono Denwabango ha...");
         }
+        private static void EndCall()
+        {
+            System.Console.WriteLine(""); //insert an japanese sentence for ending a phone call.
+        }
         static void Main(string[] args)
         {
             Call();

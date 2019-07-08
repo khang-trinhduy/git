@@ -12,6 +12,10 @@ namespace git_example
         {
             System.Console.WriteLine("Anou, Kono Denwabango ha...");
         }
+        private static void Cancel()
+        {
+            System.Console.WriteLine(""); //add wrong number in japanese
+        }
         static void Main(string[] args)
         {
             Call();
